@@ -8,7 +8,7 @@ import cloudflare from '@astrojs/cloudflare';
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://example.com',
+  site: 'https://astro-seccion-10-y-18-devtalles.gusadriarg.workers.dev',
 
   // adapter: node({
   //   mode: 'standalone',
