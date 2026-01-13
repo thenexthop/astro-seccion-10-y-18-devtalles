@@ -6,8 +6,10 @@ export const prerender = false
 
 export const GET: APIRoute = async () => {
 
+    const clients = await prisma.client.findMany()
+
     try {
-        const clients = await prisma.client.findMany()
+
 
         return new Response(
             JSON.stringify({ method: "GET", msg: "ok", clients }),
