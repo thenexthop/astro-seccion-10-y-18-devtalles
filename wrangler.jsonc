@@ -1,6 +1,7 @@
 {
   "main": "dist/_worker.js/index.js",
-  "name": "astro-devtalles-seccion10-y-18",
+  "name": "astro-seccion-10-y-18-devtalles",
+  "pages_build_output_dir": "./dist",
   "compatibility_date": "2026-01-13",
   "compatibility_flags": [
     "nodejs_compat",
